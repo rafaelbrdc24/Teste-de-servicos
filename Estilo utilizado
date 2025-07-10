@@ -1,0 +1,92 @@
+<style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f9fa;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    header {
+      background-color: #ffffff;
+      text-align: center;
+      padding: 1rem;
+      border-bottom: 2px solid #ccc;
+    }
+    header img {
+      max-width: 300px;
+      border-radius: 16px;
+    }
+    .container {
+      padding: 2rem;
+      max-width: 1200px;
+      margin: auto;
+      flex: 1;
+    }
+    .btns {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      margin-bottom: 2rem;
+    }
+    button {
+      padding: 1rem 2rem;
+      font-size: 1rem;
+      border: none;
+      border-radius: 16px;
+      cursor: pointer;
+      color: white;
+    }
+    .direta {
+      background: linear-gradient(to right, #2962ff, #00c853);
+    }
+    .indireta {
+      background: linear-gradient(to right, #2962ff, #ffab00);
+    }
+    form {
+      display: none;
+      flex-direction: column;
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+    input, select {
+      padding: 0.8rem;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      width: 100%;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 1rem;
+    }
+    .result {
+      background: white;
+      padding: 1rem;
+      border-radius: 16px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+    .result h3 {
+      margin: 0;
+      color: #2962ff;
+    }
+    .result p {
+      margin: 0.2rem 0;
+    }
+    .result p:last-child {
+      margin-bottom: 0;
+    }
+    /* Estilo para o botão de pesquisa */
+    #searchForm button {
+        background-color: #2962ff;
+        color: white;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #ffffff;
+      border-top: 2px solid #ccc;
+      margin-top: auto;
+    }
+  </style>
