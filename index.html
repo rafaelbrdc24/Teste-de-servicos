@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rede Credenciada - GDF Saúde</title>
+  <link rel="icon" href="icon_gdf.png" type="image/png" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f9fa;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    header {
+      background-color: #ffffff;
+      text-align: center;
+      padding: 1rem;
+      border-bottom: 2px solid #ccc;
+    }
+    header img {
+      max-width: 300px;
+      border-radius: 16px;
+    }
+    .container {
+      padding: 2rem;
+      max-width: 1200px;
+      margin: auto;
+      flex: 1;
+    }
+    .btns {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      margin-bottom: 2rem;
+    }
+    button {
+      padding: 1rem 2rem;
+      font-size: 1rem;
+      border: none;
+      border-radius: 16px;
+      cursor: pointer;
+      color: white;
+    }
+    .direta {
+      background: linear-gradient(to right, #2962ff, #00c853);
+    }
+    .indireta {
+      background: linear-gradient(to right, #2962ff, #ffab00);
+    }
+    form {
+      display: none;
+      flex-direction: column;
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+    input, select {
+      padding: 0.8rem;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      width: 100%;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 1rem;
+    }
+    .result {
+      background: white;
+      padding: 1rem;
+      border-radius: 16px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+    .result h3 {
+      margin: 0;
+      color: #2962ff;
+    }
+    .result p {
+      margin: 0.2rem 0;
+    }
+    .result p:last-child {
+      margin-bottom: 0;
+    }
+    /* Estilo para o botão de pesquisa */
+    #searchForm button {
+        background-color: #2962ff;
+        color: white;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #ffffff;
+      border-top: 2px solid #ccc;
+      margin-top: auto;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logogdfsaude.png" alt="GDF Saúde" />
+  </header>
+  <div class="container">
+    <div class="btns">
+      <button class="direta" onclick="loadSheet('direta')">Rede Credenciada Direta</button>
+      <button class="indireta" onclick="loadSheet('indireta')">Rede Credenciada Indireta</button>
+    </div>
+    <form id="searchForm" onsubmit="event.preventDefault(); searchTable()">
+      <div class="grid">
+        <input type="text" id="nome" placeholder="Nome" />
+        <input type="text" id="especialidade" list="especialidadesList" placeholder="Especialidade" />
+        <datalist id="especialidadesList"></datalist>
+        <select id="bairro">
+          <option value="">Todos os bairros</option>
+          <option>Águas Claras</option>
+          <option>Asa Norte</option>
+          <option>Asa Sul</option>
+          <option>Brasília</option>
+          <option>Ceilândia</option>
+          <option>Gama</option>
+          <option>Guará</option>
+          <option>Lago Sul</option>
+          <option>Plano Piloto</option>
+          <option>Riacho Fundo I</option>
+          <option>Setor Central (Gama)</option>
+          <option>Setor de Autarquias Sul</option>
+          <option>Setor de Clubes Esportivos Sul</option>
+          <option>Setor Hospitalar Sul</option>
+          <option>Sobradinho</option>
+          <option>Taguatinga</option>
+        </select>
+        <input type="text" id="cidade" placeholder="Cidade" />
+        <input type="text" id="estado" placeholder="Estado" />
+      </div>
+      <button type="submit" style="margin-top: 1rem;">Pesquisar</button>
+    </form>
+    <div id="results"></div>
+  </div>
+
+  <footer>
+    <p>Versão: 0.0.8</p>
+    <p>Dev: Rafael Barros</p>
+  </footer>
+
+  <script>
+    let data;
+    let currentSheet;
+    let similarityMap;
+
+    const normalize = (str) => {
+      if (!str) return '';
+      return str.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+    };
+
+    const getSimilarityMapping = (specialties) => {
+      const map = {};
+      const synonyms = [
+        ['imologia', 'imunologia'],
+        ['ortopedista', 'ortopedia'],
+        ['fisioterpia', 'fisioterapia'],
+        ['cirirgia', 'cirurgia'],
+        ['angilogia', 'angiologia'],
+        ['anestesioloagia', 'anestesiologia'],
+        ['anestologia', 'anestesiologia'],
+        ['dematologia', 'dermatologia'],
+        ['dermatlogia', 'dermatologia'],
+        ['coloprtologia', 'coloproctologia'],
+        ['coloproctolgia', 'coloproctologia'],
+        ['coloproctoloiga', 'coloproctologia'],
+        ['clinica med', 'clínica médica'],
+        ['clniica medica', 'clínica médica'],
+        ['clínica médfica', 'clínica médica'],
+        ['clínico geral', 'clínica geral'],
+        ['cirugiao', 'cirurgia'],
+        ['cirurgia ancologica', 'cirurgia oncológica'],
+        ['cirurgia oncolgico', 'cirurgia oncológica'],
+        ['cancerologia/oncologia', 'oncologia'],
+        ['cancerologia', 'oncologia'],
+      ];
+
+      synonyms.forEach(pair => {
+        const [typo, correct] = pair;
+        specialties.forEach(s => {
+          if (s.includes(normalize(typo))) {
+            map[s] = normalize(correct);
+          }
+        });
+      });
+      return map;
+    };
+
+    const loadSpecialties = async () => {
+      try {
+        const res = await fetch('especialidades_exatas.json');
+        const specialties = await res.json();
+
+        const uniqueSpecialties = new Set();
+        specialties.forEach(spec => {
+          const individualSpecs = spec.split(/, |[\n]/).map(s => s.trim());
+          individualSpecs.forEach(s => {
+            if (s) {
+              uniqueSpecialties.add(s);
+            }
+          });
+        });
+
+        const sortedSpecialties = Array.from(uniqueSpecialties).sort();
+        similarityMap = getSimilarityMapping(sortedSpecialties.map(normalize));
+
+        const datalist = document.getElementById('especialidadesList');
+        sortedSpecialties.forEach(spec => {
+          const option = document.createElement('option');
+          option.value = spec;
+          datalist.appendChild(option);
+        });
+
+      } catch (error) {
+        console.error('Erro ao carregar especialidades:', error);
+      }
+    };
+
+    const loadSheet = async (sheet) => {
+      currentSheet = sheet;
+      const form = document.getElementById('searchForm');
+      const resultsContainer = document.getElementById('results');
+      form.style.display = 'flex';
+      resultsContainer.innerHTML = 'Carregando dados...';
+
+      try {
+        const res = await fetch(`${sheet}.json`);
+        data = await res.json();
+
+        if (data && data["REDE CREDENCIADA"] && Array.isArray(data["REDE CREDENCIADA"])) {
+          data = data["REDE CREDENCIADA"];
+        }
+
+        resultsContainer.innerHTML = '';
+        searchTable();
+      } catch (error) {
+        console.error(`Erro ao carregar a planilha ${sheet}:`, error);
+        resultsContainer.innerHTML = `<p>Erro ao carregar os dados. Verifique se o arquivo ${sheet}.json está disponível e formatado corretamente.</p>`;
+      }
+    };
+
+    const searchTable = () => {
+      if (!data) return;
+
+      const nome = normalize(document.getElementById('nome').value);
+      const especialidadeInput = normalize(document.getElementById('especialidade').value);
+      const bairro = normalize(document.getElementById('bairro').value);
+      const cidade = normalize(document.getElementById('cidade').value);
+      const estado = normalize(document.getElementById('estado').value);
+
+      const canonicalSearchTerm = similarityMap[especialidadeInput] || especialidadeInput;
+
+      const results = data.filter(entry => {
+        const entrySpecialties = entry.especialidade ? entry.especialidade.split(/, |[\n]/).map(s => normalize(s)) : [];
+        const entrySpecialtiesCanonical = entrySpecialties.map(s => similarityMap[s] || s);
+
+        const specialtyMatch = !especialidadeInput || entrySpecialtiesCanonical.some(s => s.includes(canonicalSearchTerm));
+
+        return (!nome || normalize(entry.nome).includes(nome)) &&
+               specialtyMatch &&
+               (!bairro || normalize(entry.bairro).includes(bairro)) &&
+               (!cidade || normalize(entry.cidade).includes(cidade)) &&
+               (!estado || normalize(entry.estado).includes(estado));
+      });
+
+      const container = document.getElementById('results');
+      container.innerHTML = '';
+      if (results.length === 0) {
+        container.innerHTML = '<p>Nenhum resultado encontrado.</p>';
+        return;
+      }
+
+      results.forEach(entry => {
+        container.innerHTML += `
+          <div class="result">
+            <h3 style="color: #2962ff;">${entry.nome}</h3>
+            <p><strong>Telefone:</strong> ${entry.telefone || 'Não informado'}</p>
+            <p><strong>Especialidade:</strong> ${entry.especialidade}</p>
+            <p><strong>Endereço:</strong> ${entry.bairro}, ${entry.cidade} - ${entry.estado}</p>
+          </div>
+        `;
+      });
+    };
+
+    window.onload = () => {
+      loadSpecialties();
+    };
+  </script>
+</body>
+</html>

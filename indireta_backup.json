@@ -1,0 +1,1314 @@
+[
+  {
+    "nome": "AMHPDF",
+    "telefone": "(61)3445-6500",
+    "especialidade": "DIVERSAS",
+    "bairro": "ASA SUL",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "ASMEPRO",
+    "telefone": "(61)3272-3110",
+    "especialidade": "GERAL",
+    "bairro": "TAGUATINGA",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "APROSS",
+    "telefone": null,
+    "especialidade": "GERAL",
+    "bairro": "ASA SUL",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "AMAI",
+    "telefone": "(61)3351-6245 (61)3351-6795 (61)3352-7280 (61)3352-8570",
+    "especialidade": "GERAL",
+    "bairro": "TAGUATINGA",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "ACB",
+    "telefone": "(61)3248-8988 (61)3248-1699",
+    "especialidade": "GERAL",
+    "bairro": "ASA SUL",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "NEPHRON BRASÍLIA SERVIÇOS MÉDICOS",
+    "telefone": "(61) 3044-8650",
+    "especialidade": "NEFROLOGIA",
+    "bairro": "TAGUATINGA",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "IRT",
+    "telefone": "(61)32014123 (61)99943--3536",
+    "especialidade": "RADIOTERAPIA",
+    "bairro": "TAGUATINGA",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "UROLOGY",
+    "telefone": "(61)34435040-(61)98378-0069",
+    "especialidade": "UROLOGIA",
+    "bairro": "ASA SUL",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "OCULARE OFTALMOLOGIA",
+    "telefone": "(61)32424222",
+    "especialidade": "OFTALMOLOGIA",
+    "bairro": "ASA SUL",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "INSTITUTO OFTALMOLÓGICO DE BRASÍLIA - IOB",
+    "telefone": "(61)3445-2500 /32451559 /986533895",
+    "especialidade": "OFTALMOLOGIA",
+    "bairro": "ASA SUL",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "PSICOCLÍNICA E PSICOTALENTOS",
+    "telefone": "(61) 3327-0310",
+    "especialidade": "PSICOLOGIA",
+    "bairro": "ASA SUL",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "QUALIFÍSIO",
+    "telefone": "(61) 3345-8230",
+    "especialidade": "FISIOTERAPIA",
+    "bairro": "ASA SUL",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "CETTRO - CENTRO DE RADIOTERAPIA DA ASA SUL",
+    "telefone": "(61)3429-2900",
+    "especialidade": "RADIOTERAPIA",
+    "bairro": "ASA SUL",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "BABY PED PRONTO ATENDIMENTO INFANTIL",
+    "telefone": "(61)3877-8600",
+    "especialidade": "PEDIATRIA",
+    "bairro": "LAGO SUL",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "VIA OFTALMOCENTER",
+    "telefone": "(61)3242-7979 (61)99323-863 (61)99283-8060",
+    "especialidade": "OFTALMOLOGIA",
+    "bairro": "ASA SUL",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "INSTITUTO PANAMERICANO DE OFTALMOLOGIA",
+    "telefone": "(61)3034-6565 (61)99127-3246",
+    "especialidade": "OFTALMOLOGIA",
+    "bairro": "ASA SUL",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "ALTAVISTA OFTALMOLOGIA",
+    "telefone": "(61)3522-3232 (61)99133-0033",
+    "especialidade": "OFTALMOLOGIA",
+    "bairro": "ASA SUL",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "CLÍNICA DE OLHOS DR. GRISÓLIA",
+    "telefone": "(61)3326-2735 (61)3591-5257",
+    "especialidade": "OFTALMOLOGIA",
+    "bairro": "SOBRADINHO",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "CENTRO MÉDICO DA VISÃO",
+    "telefone": "(61)3546-8868 (61)98115-1112",
+    "especialidade": "OFTALMOLOGIA",
+    "bairro": "ÁGUAS CLARAS",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "FOCO OFTALMOLOGIA",
+    "telefone": "(61)99937-8997",
+    "especialidade": "OFTALMOLOGIA",
+    "bairro": "SAMAMBAIA",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "INSTITUTO AVANÇADO DA VISÃO",
+    "telefone": "(61)3026-1002 (61)98335-3805",
+    "especialidade": "OFTALMOLOGIA",
+    "bairro": "RECANTO DAS EMAS",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "UROCENTRO",
+    "telefone": "(61)3345-4200 (61)98625-8802",
+    "especialidade": "UROLOGIA",
+    "bairro": "ASA SUL",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "IBRANE",
+    "telefone": "(61) 3970-8808",
+    "especialidade": "NETROLOGIA",
+    "bairro": "CEILÂNDIA",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "VISTA HOSPITAL DA CATARATA",
+    "telefone": "(61)3033-7400",
+    "especialidade": "OFTALMOLOGIA",
+    "bairro": "TAGUATINGA",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "VIVA OFTALMOLOGIA",
+    "telefone": "(61)3246-5555",
+    "especialidade": "OFTALMOLOGIA",
+    "bairro": "ASA SUL",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "BIOCÁRDIOS",
+    "telefone": "(61)3442-6300",
+    "especialidade": "CARDIOLOGIA, CIRURGIA CARDIO VASCULAR, CIRURGIA VASCULAR, CLINICA MEDICA, PNEUMOLOGIA, ANGIOLOGIA, GASTROENTEROLOGIA, RADIOLOGIA",
+    "bairro": "ASA SUL",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "ORTO SUL",
+    "telefone": "(61) 3043-1200",
+    "especialidade": "ORTOPEDIA E TRAUMATOLOGIA",
+    "bairro": "ASA SUL",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "OFTALMO BRASÍLIA",
+    "telefone": "(61) 3345-7782",
+    "especialidade": "OFTALMOLOGIA",
+    "bairro": "ASA SUL",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "HIDROFISIO",
+    "telefone": "(61) 3563-4653",
+    "especialidade": "FISIOTERAPIA",
+    "bairro": "TAGUATINGA",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "HIDROFÍSIO",
+    "telefone": "(61) 3563-4653",
+    "especialidade": "FISIOTERAPIA",
+    "bairro": "TAGUATINGA",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "HIDROFÍSIO",
+    "telefone": "(61) 3965-4653",
+    "especialidade": "FISIOTERAPIA",
+    "bairro": "CEILÂNDIA",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "HIDROFÍSIO",
+    "telefone": "(61) 4042-8080",
+    "especialidade": "FISIOTERAPIA",
+    "bairro": "SUDOESTE",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "MEDICINA DA VISÃO",
+    "telefone": "(61)34428065",
+    "especialidade": "OFTALMOLOGIA",
+    "bairro": "ASA SUL",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "SOMA KINESIS",
+    "telefone": "(61) 3242-5681",
+    "especialidade": "FISIOTERAPIA",
+    "bairro": "ASA SUL",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "ESCUTAR MAIS PROCESSAMANTE AUDITIVO CENTRAL",
+    "telefone": "(61) 3242-9277",
+    "especialidade": "FONOUDIOLOGIA",
+    "bairro": "ASA SUL",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "H2FISIO",
+    "telefone": "(61)3548-2317",
+    "especialidade": "FISIOTERAPIA",
+    "bairro": "TAGUATINGA",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "VIDA EM MOVIMENTO FISIOTERAPIA",
+    "telefone": "(61)998387097",
+    "especialidade": "FISIOTERAPIA",
+    "bairro": "ÁGUAS CLARAS",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "UROS UROLOGIA E ANDROLOGIA",
+    "telefone": "(613773-4413",
+    "especialidade": "UROLOGIA",
+    "bairro": "ASA NORTE",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "CLÍNICA UROMASTER",
+    "telefone": "(61)3703-2671",
+    "especialidade": "UROLOGIA",
+    "bairro": "ASA SUL",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "CHB - CENTRO HIPERBÁRICO DE BRASÍLIA",
+    "telefone": "(61)3042-5227",
+    "especialidade": "MEDICINA HIPERBARICA",
+    "bairro": "TAGUATINGA",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "CLÍNICA SORT",
+    "telefone": "(61)3346-7270 (61)3245-4975",
+    "especialidade": "ORTOPEDIA, MEDICINA INTERVENCIONISTA DA DOR, CLINICA MÉDICA",
+    "bairro": "ASA SUL",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "INCLINAR - INST CLÍN DE INTEGRAÇÃO, AVALIAÇÃO E REABILITAÇÃO",
+    "telefone": null,
+    "especialidade": "Nutrição, Fonoaudiologia, Terapia Ocupacional, Psicologia",
+    "bairro": "Águas Claras",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": null,
+    "telefone": "998678887",
+    "especialidade": "Psicologia",
+    "bairro": "Asa Norte",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": null,
+    "telefone": "33455784",
+    "especialidade": null,
+    "bairro": "Asa Norte",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": null,
+    "telefone": "6140638844",
+    "especialidade": null,
+    "bairro": "Asa Sul",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "IGOB",
+    "telefone": "98448867",
+    "especialidade": "Ginecologia e Obstetrícia",
+    "bairro": "Asa Sul",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "INOB INSTITUTO DE OLHOS E MICROCIRURGIA DE BRASÍLIA",
+    "telefone": null,
+    "especialidade": "Oftalmologia",
+    "bairro": "Asa Sul",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "INOB INSTITUTO DE OLHOS E MICROCIRURGIA DE BRASÍLIA",
+    "telefone": "34424000",
+    "especialidade": "Oftalmologia",
+    "bairro": "Asa Sul",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": null,
+    "telefone": "32457995",
+    "especialidade": null,
+    "bairro": "Asa Sul",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "CLINICOR",
+    "telefone": "35328288",
+    "especialidade": "Cardiologia, Ecocardiografia, Dermatologia, Medicina da Dor, Nefrologia, Neurocirurgia, Clínica Médica, Endocrinologia e Metabologia, Urologia, Nutrição",
+    "bairro": "Asa Sul",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": null,
+    "telefone": "992056907",
+    "especialidade": null,
+    "bairro": "Asa Sul",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "UROINSTITUTO",
+    "telefone": "33450805",
+    "especialidade": "Radiologia e Diagnóstico por Imagem, Cirurgia Geral, Ginecologia e Obstetrícia, Urologia",
+    "bairro": "Asa Sul",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "INSTITUTO VENO ARTERIAL",
+    "telefone": null,
+    "especialidade": "Radiologia Intervencionista e Angiorradiologia, Cirurgia Geral, Cirurgia Vascular, Cirurgia Cardiovascular, Ultrassonografia Vascular com Doppler, Angiologia, Angiorradiologia e Cirurgia Endovascular",
+    "bairro": "Asa Sul",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "ENDOGASTRUS",
+    "telefone": null,
+    "especialidade": "Gastroenterologia Pediátrica, Radiologia e Diagnóstico por Imagem, Pediatria, Clínica Médica, Endocrinologia e Metabologia, Nutrição, Fonoaudiologia, Gastroenterologia, Cirurgia Geral, Endoscopia Digestiva, Coloproctologia, Psicologia",
+    "bairro": null,
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "GASTRODIAGNÓSTICO",
+    "telefone": "33524010",
+    "especialidade": "Gastroenterologia, Endoscopia Digestiva",
+    "bairro": "Taguatinga Norte",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "GASTROCLASS",
+    "telefone": null,
+    "especialidade": "Gastroenterologia, Gastroenterologia Pediátrica, Neurologia, Neurocirurgia, Neurofisiologia Clínica, Cirurgia Geral, Cirurgia do Aparelho Digestivo, Endoscopia Digestiva,",
+    "bairro": "Taguatinga Norte",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "GASTROCLASS",
+    "telefone": "35610007",
+    "especialidade": "Gastroenterologia, Gastroenterologia Pediátrica, Neurologia, Neurocirurgia, Neurofisiologia Clínica, Cirurgia Geral, Cirurgia do Aparelho Digestivo, Endoscopia Digestiva, Coloproctologia",
+    "bairro": "Taguatinga Norte",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "NEUROTOTAL",
+    "telefone": null,
+    "especialidade": "Neurologia, Neurologia Pediátrica, Pediatria, Endocrinologia e Metabologia",
+    "bairro": "Taguatinga Norte",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "NEUROTOTAL",
+    "telefone": "6135637527",
+    "especialidade": "Neurologia, Neurologia Pediátrica, Pediatria, Endocrinologia e Metabologia",
+    "bairro": "Taguatinga Norte",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "UNIFISIO CENTRO DE REABILITAÇÃO",
+    "telefone": "994348787",
+    "especialidade": "Terapia Ocupacional, Fisioterapia, Fonoaudiologia, Psicologia",
+    "bairro": "Taguatinga Norte",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "INTERAÇÃO CENTRO DE ATENDIMENTO MULTIPROFISSIONAL",
+    "telefone": "30472070",
+    "especialidade": "Neurologia Pediátrica, Pediatria, Psiquiatria,",
+    "bairro": "Taguatinga Sul",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "CLÍNICA SANUS",
+    "telefone": "(61)3382-7634",
+    "especialidade": "Fisioterapia, Psicologia, Fonoaudiologia, Terapia Ocupacional, Nutrição",
+    "bairro": "Gama Leste",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "LIV SAÚDE",
+    "telefone": "(61)3702-8600",
+    "especialidade": "Clínica Médica, Fisioterapia, Nutrição, Psicologia, Fonoaudiologia, Terapia Ocupacional, Psiquiatria",
+    "bairro": "Gama",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "CLÍNICA INTEGRAR",
+    "telefone": "(61)3053-9003 (61)99307-5586",
+    "especialidade": "Fisioterapia, Fonoaudiologia, Nutrição, Terapia Ocupacional, Psicologia, Psiquiatria, Psicopedagogia",
+    "bairro": "Gama",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "CENTRO ORTOPÉDICO E FISIOTERAPIA DO GAMA",
+    "telefone": "(61)3384-2453",
+    "especialidade": "Fisioterapia",
+    "bairro": "Gama",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "FISIOCLÍNIC",
+    "telefone": "(61)3556-3205",
+    "especialidade": "Fisioterapia",
+    "bairro": "Planaltina",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "CLÍNICA ESPEC. EM SAÚDE",
+    "telefone": "(61)3487-1901",
+    "especialidade": "Nutrição",
+    "bairro": "Planaltina",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "INSTITUTO DE OLHOS DA LUZ",
+    "telefone": "(61)3379-8800",
+    "especialidade": "Oftalmologia",
+    "bairro": "Ceilândia",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "CLÍNICA SANTA HELENA",
+    "telefone": "(61)3562-4217",
+    "especialidade": "Ginecologia e Obstetrícia",
+    "bairro": "Ceilândia",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "CLÍNICA VITA LUNGA",
+    "telefone": "(61)3379-3010",
+    "especialidade": "Clínica Médica, Pneumologia",
+    "bairro": "Ceilândia",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "CLÍNICA DE FRATURAS DE CEILÂNDIA",
+    "telefone": "(61)3371-2051",
+    "especialidade": "Ortopedia e Traumatologia",
+    "bairro": "Ceilândia",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "CLÍNICA VITAL",
+    "telefone": "(61) 3471-7000",
+    "especialidade": "Psicologia",
+    "bairro": "Guará II",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "CENTRO MÉDICO DR. PAULO MAIA",
+    "telefone": "(61) 3573-0700",
+    "especialidade": "Clínica Médica, Ginecologia e Obstetrícia, Cardiologia, Cirurgia Geral, Radiologia e Diagnóstico por Imagem, Fisioterapia, Nutrição, Psicologia, Fonoaudiologia, Terapia Ocupacional, Cirurgia Plástica, Otorrinolaringologia, Ortopedia e Traumatologia, Acupuntura, Alergia e Imunologia, Angiologia, Anestesiologia, Cirurgia Cabeça e Pescoço, Cirurgia Cardiovascular, Cirurgia do Aparelho Digestivo, Cirurgia Pediátrica, Cirurgia Torácica, Cirurgia Vascular, Coloproctologia, Dermatologia, Endocrinologia e Metabologia, Endoscopia Digestiva, Geriatria, Hematologia e Hemoterapia, Hepatologia, Infectologia, Mastologia, Medicina Física e Reabilitação, Medicina Intensiva, Medicina do Trabalho, Medicina de Família e Comunidade, Nefrologia, Neurocirurgia, Neurofisiologia Clínica, Neurologia, Neurologia Pediátrica, Nutrologia, Oftalmologia, Oncologia Clínica, Patologia, Pediatria, Pneumologia, Psiquiatria, Reumatologia, Urologia, Medicina de Tráfego, Auditoria Médica, Cirurgia da Mão, Cirurgia Craniomaxilofacial, Dor, Medicina Esportiva, Medicina do Sono, Transplante de Medula Óssea",
+    "bairro": "Valparaiso de Goiás",
+    "cidade": "Valparaiso de Goiás",
+    "estado": "Goiás"
+  },
+  {
+    "nome": "CLÍNICA SANTA FÉ",
+    "telefone": "(61) 3627-5676 (61) 99191-2408",
+    "especialidade": "Fisioterapia",
+    "bairro": "Novo Gama",
+    "cidade": "Novo Gama",
+    "estado": "Goiás"
+  },
+  {
+    "nome": "CLÍNICA VITAL HEALTH",
+    "telefone": "(61)3627-6192",
+    "especialidade": "Clínica Médica, Cardiologia, Pediatria, Ginecologia e Obstetrícia, Radiologia e Diagnóstico por Imagem, Fisioterapia, Nutrição, Psicologia, Fonoaudiologia, Terapia Ocupacional",
+    "bairro": "Novo Gama",
+    "cidade": "Novo Gama",
+    "estado": "Goiás"
+  },
+  {
+    "nome": "HOSPITAL SÃO JUDAS TADEU",
+    "telefone": "(61) 3627-2100",
+    "especialidade": "Clínica Médica, Ortopedia e Traumatologia, Cirurgia Geral, Radiologia e Diagnóstico por Imagem, Anestesiologia, Pediatria, Ginecologia e Obstetrícia, Cardiologia",
+    "bairro": "Novo Gama",
+    "cidade": "Novo Gama",
+    "estado": "Goiás"
+  },
+  {
+    "nome": "CLÍNICA SANTA MÔNICA",
+    "telefone": "(61) 3629-3733",
+    "especialidade": "Clínica Médica, Ginecologia e Obstetrícia, Pediatria, Cirurgia Geral, Radiologia e Diagnóstico por Imagem, Fisioterapia, Nutrição, Psicologia",
+    "bairro": "Cidade Ocidental",
+    "cidade": "Cidade Ocidental",
+    "estado": "Goiás"
+  },
+  {
+    "nome": "CLÍNICA SANTA TEREZINHA",
+    "telefone": "(61)3605-2495",
+    "especialidade": "Clínica Médica, Ginecologia e Obstetrícia, Pediatria, Ortopedia e Traumatologia, Cardiologia, Fisioterapia, Nutrição, Psicologia, Fonoaudiologia, Terapia Ocupacional, Otorrinolaringologia, Cirurgia Geral, Dermatologia, Cirurgia Plástica, Psiquiatria",
+    "bairro": "Luziânia",
+    "cidade": "Luziânia",
+    "estado": "Goiás"
+  },
+  {
+    "nome": "CLÍNICA DE FRATURAS SANTA LUZIA",
+    "telefone": "(61) 3622-4217",
+    "especialidade": "Ortopedia e Traumatologia",
+    "bairro": "Luziânia",
+    "cidade": "Luziânia",
+    "estado": "Goiás"
+  },
+  {
+    "nome": "HOSPITAL SANTA LUZIA",
+    "telefone": "(61) 3622-4217",
+    "especialidade": "Clínica Médica, Ginecologia e Obstetrícia, Pediatria, Cirurgia Geral, Radiologia e Diagnóstico por Imagem, Ortopedia e Traumatologia, Anestesiologia, Cardiologia, Cirurgia Vascular, Coloproctologia, Dermatologia, Endocrinologia e Metabologia, Gastroenterologia, Hematologia e Hemoterapia, Infectologia, Nefrologia, Neurocirurgia, Neurologia, Oftalmologia, Otorrinolaringologia, Pneumologia, Psiquiatria, Reumatologia, Urologia, Cirurgia do Aparelho Digestivo, Fisioterapia, Nutrição, Psicologia, Fonoaudiologia, Terapia Ocupacional",
+    "bairro": "Luziânia",
+    "cidade": "Luziânia",
+    "estado": "Goiás"
+  },
+  {
+    "nome": "CLÍNICA ODONTO VITAL",
+    "telefone": "(61) 3624-5227",
+    "especialidade": "Odontologia",
+    "bairro": "Luziânia",
+    "cidade": "Luziânia",
+    "estado": "Goiás"
+  },
+  {
+    "nome": "CLÍNICA SUL",
+    "telefone": "(61)3621-1250",
+    "especialidade": "Oftalmologia",
+    "bairro": "Luziânia",
+    "cidade": "Luziânia",
+    "estado": "Goiás"
+  },
+  {
+    "nome": "LABORATÓRIO VITTA",
+    "telefone": "(61) 3624-3788 (61) 99616-5272",
+    "especialidade": "Análises Clínicas",
+    "bairro": "Luziânia",
+    "cidade": "Luziânia",
+    "estado": "Goiás"
+  },
+  {
+    "nome": "CLÍNICA PRONTOMED",
+    "telefone": "(61) 3624-2900",
+    "especialidade": "Ginecologia e Obstetrícia, Pediatria, Clínica Médica, Radiologia e Diagnóstico por Imagem, Cardiologia, Cirurgia Geral, Ortopedia e Traumatologia, Fisioterapia, Nutrição, Psicologia, Fonoaudiologia, Terapia Ocupacional",
+    "bairro": "Luziânia",
+    "cidade": "Luziânia",
+    "estado": "Goiás"
+  },
+  {
+    "nome": "CLÍNICA MÉDICA PRONTOMED",
+    "telefone": "(61)36242900",
+    "especialidade": "Clínica Médica, Cardiologia, Cirurgia Geral, Ginecologia e Obstetrícia, Ortopedia e Traumatologia, Pediatria",
+    "bairro": "Luziânia",
+    "cidade": "Luziânia",
+    "estado": "Goiás"
+  },
+  {
+    "nome": "HOSPITAL REGIONAL DE LUZIÂNIA",
+    "telefone": null,
+    "especialidade": "Cirurgia Geral, Ginecologia e Obstetrícia, Ortopedia e Traumatologia, Pediatria, Clínica Médica, Radiologia e Diagnóstico por Imagem, Cirurgia Cardiovascular, Cirurgia do Aparelho Digestivo, Cirurgia Pediátrica, Cirurgia Plástica, Cirurgia Torácica, Cirurgia Vascular, Coloproctologia, Neurocirurgia, Urologia, Fisioterapia, Nutrição, Psicologia, Fonoaudiologia, Terapia Ocupacional",
+    "bairro": "Luziânia",
+    "cidade": "Luziânia",
+    "estado": "Goiás"
+  },
+  {
+    "nome": "SANTA CASA DE MISERICÓRDIA DE LUZIÂNIA",
+    "telefone": "(61)3601-5252 (61)3621-1240",
+    "especialidade": "Clínica Médica, Ginecologia e Obstetrícia, Pediatria, Radiologia e Diagnóstico por Imagem, Cirurgia Geral, Ortopedia e Traumatologia, Anestesiologia, Cirurgia do Aparelho Digestivo, Cirurgia Pediátrica, Cirurgia Plástica, Cirurgia Vascular, Coloproctologia, Mastologia, Neurocirurgia, Oftalmologia, Otorrinolaringologia, Urologia",
+    "bairro": "Luziânia",
+    "cidade": "Luziânia",
+    "estado": "Goiás"
+  },
+  {
+    "nome": "FISIOCLÍNICA",
+    "telefone": "(61)3613-2615",
+    "especialidade": "Fisioterapia",
+    "bairro": "Formosa",
+    "cidade": "Formosa",
+    "estado": "Goiás"
+  },
+  {
+    "nome": "HOSPITAL SANTA TERESA",
+    "telefone": "(61) 3631-9900",
+    "especialidade": "Clínica Médica, Cirurgia Geral, Ginecologia e Obstetrícia, Ortopedia e Traumatologia, Pediatria, Anestesiologia, Cirurgia do Aparelho Digestivo, Coloproctologia, Dermatologia, Endocrinologia e Metabologia, Gastroenterologia, Hematologia e Hemoterapia, Infectologia, Cardiologia, Neurocirurgia, Oftalmologia, Otorrinolaringologia, Pneumologia, Psiquiatria, Reumatologia, Urologia, Cirurgia Plástica, Cirurgia Vascular, Fisioterapia, Nutrição, Psicologia, Fonoaudiologia, Terapia Ocupacional",
+    "bairro": "Formosa",
+    "cidade": "Formosa",
+    "estado": "Goiás"
+  },
+  {
+    "nome": "HOSPITAL SANTA TEREZINHA",
+    "telefone": "(61)3631-9900",
+    "especialidade": "Ginecologia e Obstetrícia, Pediatria, Cirurgia Geral, Ortopedia e Traumatologia, Clínica Médica, Radiologia e Diagnóstico por Imagem, Anestesiologia, Cardiologia, Cirurgia do Aparelho Digestivo, Cirurgia Pediátrica, Cirurgia Plástica, Cirurgia Vascular, Coloproctologia, Dermatologia, Endocrinologia e Metabologia, Endoscopia Digestiva, Gastroenterologia, Geriatria, Hematologia e Hemoterapia, Infectologia, Mastologia, Medicina Física e Reabilitação, Medicina Intensiva, Nefrologia, Neurocirurgia, Neurologia, Oftalmologia, Oncologia Clínica, Otorrinolaringologia, Pneumologia, Proctologia, Psiquiatria, Reumatologia, Urologia, Fisioterapia, Nutrição, Psicologia, Fonoaudiologia, Terapia Ocupacional",
+    "bairro": "Formosa",
+    "cidade": "Formosa",
+    "estado": "Goiás"
+  },
+  {
+    "nome": "LABORATORIO SÃO LUCAS",
+    "telefone": "(61)3631-1555 (61)99933-2882",
+    "especialidade": "Análises Clínicas",
+    "bairro": "Formosa",
+    "cidade": "Formosa",
+    "estado": "Goiás"
+  },
+  {
+    "nome": "CLÍNICA ORTOPÉDICA E FISIOTERAPIA",
+    "telefone": "(61)3601-5252 (61)99191-2408",
+    "especialidade": "Fisioterapia",
+    "bairro": "Formosa",
+    "cidade": "Formosa",
+    "estado": "Goiás"
+  },
+  {
+    "nome": "INSTITUTO DA COLUNA E FISIOTERAPIA",
+    "telefone": "(61)3631-9000",
+    "especialidade": "Fisioterapia",
+    "bairro": "Formosa",
+    "cidade": "Formosa",
+    "estado": "Goiás"
+  },
+  {
+    "nome": "CLÍNICA SANTA HELENA",
+    "telefone": "(61)3604-5401",
+    "especialidade": "Psicologia",
+    "bairro": "Águas Lindas de Goiás",
+    "cidade": "Águas Lindas de Goiás",
+    "estado": "Goiás"
+  },
+  {
+    "nome": "LABORATÓRIO SÃO MIGUEL",
+    "telefone": "(61) 3613-2559",
+    "especialidade": "Análises Clínicas",
+    "bairro": "Planaltina",
+    "cidade": "Planaltina de Goiás",
+    "estado": "Goiás"
+  },
+  {
+    "nome": "CLÍNICA SANTA ALIANÇA",
+    "telefone": "(61)3613-1763",
+    "especialidade": "Fisioterapia, Psicologia, Fonoaudiologia, Terapia Ocupacional",
+    "bairro": "Planaltina",
+    "cidade": "Planaltina de Goiás",
+    "estado": "Goiás"
+  },
+  {
+    "nome": "LABORATÓRIO SÃO MIGUEL",
+    "telefone": "(61)3613-2559",
+    "especialidade": "Análises Clínicas",
+    "bairro": "Formosa",
+    "cidade": "Formosa",
+    "estado": "Goiás"
+  },
+  {
+    "nome": "PRONTOCLÍNICA DA CRIANÇA",
+    "telefone": null,
+    "especialidade": "Pediatria, Neurologia Pediátrica",
+    "bairro": "Formosa",
+    "cidade": "Formosa",
+    "estado": "Goiás"
+  },
+  {
+    "nome": "PRO SAÚDE",
+    "telefone": "(61)3631-1555",
+    "especialidade": "Clínica Médica, Cardiologia, Cirurgia Geral, Ginecologia e Obstetrícia, Neurologia, Ortopedia e Traumatologia, Pediatria, Otorrinolaringologia, Psiquiatria, Urologia, Fisioterapia, Nutrição, Psicologia, Fonoaudiologia, Terapia Ocupacional, Angiologia, Cirurgia Plástica",
+    "bairro": "Formosa",
+    "cidade": "Formosa",
+    "estado": "Goiás"
+  },
+  {
+    "nome": "CLÍNICA SANTA FÉ",
+    "telefone": "(61)3613-2559",
+    "especialidade": "Ginecologia e Obstetrícia, Ortopedia e Traumatologia, Pediatria, Clínica Médica, Radiologia e Diagnóstico por Imagem, Fisioterapia, Nutrição, Psicologia, Fonoaudiologia, Terapia Ocupacional",
+    "bairro": "Planaltina",
+    "cidade": "Planaltina de Goiás",
+    "estado": "Goiás"
+  },
+  {
+    "nome": "FISIOCLÍNICA",
+    "telefone": "(61)3613-2615",
+    "especialidade": "Fisioterapia",
+    "bairro": "Planaltina",
+    "cidade": "Planaltina de Goiás",
+    "estado": "Goiás"
+  },
+  {
+    "nome": "CLÍNICA MÉDICA PRONTOMED",
+    "telefone": "(61)3624-2900",
+    "especialidade": "Clínica Médica, Cardiologia, Cirurgia Geral, Ginecologia e Obstetrícia, Ortopedia e Traumatologia, Pediatria",
+    "bairro": "Luziânia",
+    "cidade": "Luziânia",
+    "estado": "Goiás"
+  },
+  {
+    "nome": "HOSPITAL SANTA MARIA",
+    "telefone": "(61)3621-1250",
+    "especialidade": "Clínica Médica, Ginecologia e Obstetrícia, Pediatria, Radiologia e Diagnóstico por Imagem, Anestesiologia, Cardiologia, Cirurgia Geral, Cirurgia do Aparelho Digestivo, Cirurgia Pediátrica, Cirurgia Plástica, Cirurgia Vascular, Coloproctologia, Dermatologia, Endocrinologia e Metabologia, Gastroenterologia, Geriatria, Hematologia e Hemoterapia, Infectologia, Mastologia, Medicina Física e Reabilitação, Nefrologia, Neurocirurgia, Neurologia, Oftalmologia, Oncologia Clínica, Ortopedia e Traumatologia, Otorrinolaringologia, Pneumologia, Psiquiatria, Reumatologia, Urologia, Fisioterapia, Nutrição, Psicologia, Fonoaudiologia, Terapia Ocupacional",
+    "bairro": "Luziânia",
+    "cidade": "Luziânia",
+    "estado": "Goiás"
+  },
+  {
+    "nome": "CLÍNICA SAÚDE MAIS",
+    "telefone": null,
+    "especialidade": "Fisioterapia, Nutrição, Psicologia, Fonoaudiologia, Terapia Ocupacional",
+    "bairro": "Luziânia",
+    "cidade": "Luziânia",
+    "estado": "Goiás"
+  },
+  {
+    "nome": "CLÍNICA VETERINÁRIA E PET SHOP SÃO FRANCISCO",
+    "telefone": "(61)3621-1250 (61)99191-2408",
+    "especialidade": "Medicina Veterinária",
+    "bairro": "Luziânia",
+    "cidade": "Luziânia",
+    "estado": "Goiás"
+  },
+  {
+    "nome": "CLÍNICA DE ULTRASSONOGRAFIA DE LU ZIÂNIA",
+    "telefone": "(61)3622-4217",
+    "especialidade": "Radiologia e Diagnóstico por Imagem, Ultrassonografia",
+    "bairro": "Luziânia",
+    "cidade": "Luziânia",
+    "estado": "Goiás"
+  },
+  {
+    "nome": "CONSULTÓRIO MÉDICO DR. LUCIANO MULLER",
+    "telefone": "(61)99191-2408",
+    "especialidade": "Oftalmologia",
+    "bairro": "Brasília",
+    "cidade": "Luziânia",
+    "estado": "Goiás"
+  },
+  {
+    "nome": "INSTITUTO DA VISÃO DE UNAÍ",
+    "telefone": "(38) 3677-9000 (38)99933-2882",
+    "especialidade": "Oftalmologia",
+    "bairro": "Centro",
+    "cidade": "Unaí",
+    "estado": "Minas Gerais"
+  },
+  {
+    "nome": "CLÍNICA SANTA HELENA",
+    "telefone": "(38)3676-5066",
+    "especialidade": "Ginecologia e Obstetrícia",
+    "bairro": "Centro",
+    "cidade": "Unaí",
+    "estado": "Minas Gerais"
+  },
+  {
+    "nome": "HOSPITAL SANTA HELENA",
+    "telefone": "(38) 3676-1360",
+    "especialidade": "Cirurgia Geral, Ginecologia e Obstetrícia, Ortopedia e Traumatologia, Pediatria, Clínica Médica, Radiologia e Diagnóstico por Imagem, Anestesiologia, Cardiologia, Cirurgia do Aparelho Digestivo, Cirurgia Pediátrica, Cirurgia Plástica, Cirurgia Torácica, Cirurgia Vascular, Coloproctologia, Dermatologia, Endocrinologia e Metabologia, Gastroenterologia, Hematologia e Hemoterapia, Infectologia, Mastologia, Medicina Intensiva, Nefrologia, Neurocirurgia, Neurologia, Oftalmologia, Oncologia Clínica, Otorrinolaringologia, Pneumologia, Psiquiatria, Reumatologia, Urologia, Fisioterapia, Nutrição, Psicologia, Fonoaudiologia, Terapia Ocupacional",
+    "bairro": "Centro",
+    "cidade": "Unaí",
+    "estado": "Minas Gerais"
+  },
+  {
+    "nome": "CLÍNICA DE OLHOS DA MATA",
+    "telefone": "(38) 3677-2266 (38) 99933-2882",
+    "especialidade": "Oftalmologia",
+    "bairro": "Centro",
+    "cidade": "Unaí",
+    "estado": "Minas Gerais"
+  },
+  {
+    "nome": "FISIOCLIN UNIDADES DE FISIOTERAPIA",
+    "telefone": "(38) 3677-7435",
+    "especialidade": "Fisioterapia",
+    "bairro": "Centro",
+    "cidade": "Unaí",
+    "estado": "Minas Gerais"
+  },
+  {
+    "nome": "LABORATÓRIO SÃO MIGUEL",
+    "telefone": "(38)3676-5743",
+    "especialidade": "Análises Clínicas",
+    "bairro": "Centro",
+    "cidade": "Unaí",
+    "estado": "Minas Gerais"
+  },
+  {
+    "nome": "CLÍNICA MÉDICA PRONTOMED",
+    "telefone": "(38) 3677-7435",
+    "especialidade": "Clínica Médica, Cardiologia, Cirurgia Geral, Ginecologia e Obstetrícia, Ortopedia e Traumatologia, Pediatria",
+    "bairro": "Centro",
+    "cidade": "Unaí",
+    "estado": "Minas Gerais"
+  },
+  {
+    "nome": "Hospital e Maternidade São Lucas",
+    "telefone": "(38)3676-1360",
+    "especialidade": "Clínica Médica, Ginecologia e Obstetrícia, Pediatria, Cirurgia Geral, Radiologia e Diagnóstico por Imagem, Ortopedia e Traumatologia, Anestesiologia, Cardiologia, Cirurgia do Aparelho Digestivo, Cirurgia Pediátrica, Cirurgia Plástica, Cirurgia Torácica, Cirurgia Vascular, Coloproctologia, Dermatologia, Endocrinologia e Metabologia, Endoscopia Digestiva, Gastroenterologia, Geriatria, Hematologia e Hemoterapia, Infectologia, Mastologia, Medicina Física e Reabilitação, Medicina Intensiva, Nefrologia, Neurocirurgia, Neurologia, Oftalmologia, Oncologia Clínica, Otorrinolaringologia, Pneumologia, Psiquiatria, Reumatologia, Urologia, Fisioterapia, Nutrição, Psicologia, Fonoaudiologia, Terapia Ocupacional",
+    "bairro": "Centro",
+    "cidade": "Unaí",
+    "estado": "Minas Gerais"
+  },
+  {
+    "nome": "UNIFISIO CENTRO DE REABILITAÇÃO",
+    "telefone": "(38) 3676-1360",
+    "especialidade": "Fisioterapia, Terapia Ocupacional, Fonoaudiologia, Psicologia",
+    "bairro": "Centro",
+    "cidade": "Unaí",
+    "estado": "Minas Gerais"
+  },
+  {
+    "nome": "CLINICA REABILITAR",
+    "telefone": "(38) 3677-4409 (38)99191-2408",
+    "especialidade": "Fisioterapia, Nutrição, Psicologia",
+    "bairro": "Centro",
+    "cidade": "Unaí",
+    "estado": "Minas Gerais"
+  },
+  {
+    "nome": "HOSPITAL SANTA ROSA",
+    "telefone": "(61)3637-1221 (61)3637-2525",
+    "especialidade": "Clínica Médica, Ginecologia e Obstetrícia, Pediatria, Cirurgia Geral, Ortopedia e Traumatologia, Radiologia e Diagnóstico por Imagem, Anestesiologia, Cirurgia do Aparelho Digestivo, Cirurgia Pediátrica, Cirurgia Plástica, Cirurgia Torácica, Cirurgia Vascular, Coloproctologia, Dermatologia, Endocrinologia e Metabologia, Endoscopia Digestiva, Gastroenterologia, Hematologia e Hemoterapia, Infectologia, Mastologia, Medicina Física e Reabilitação, Medicina Intensiva, Nefrologia, Neurocirurgia, Neurologia, Oftalmologia, Oncologia Clínica, Otorrinolaringologia, Pneumologia, Psiquiatria, Reumatologia, Urologia, Fisioterapia, Nutrição, Psicologia, Fonoaudiologia, Terapia Ocupacional",
+    "bairro": "Centro",
+    "cidade": "Unaí",
+    "estado": "Minas Gerais"
+  },
+  {
+    "nome": "LABORATÓRIO SÃO MIGUEL",
+    "telefone": "(38) 3676-5743",
+    "especialidade": "Análises Clínicas",
+    "bairro": "Centro",
+    "cidade": "Unaí",
+    "estado": "Minas Gerais"
+  },
+  {
+    "nome": "CENTRO MÉDICO DE UNAÍ",
+    "telefone": null,
+    "especialidade": "Oftalmologia",
+    "bairro": "Centro",
+    "cidade": "Unaí",
+    "estado": "Minas Gerais"
+  },
+  {
+    "nome": "HOSPITAL SANTA LUCIA",
+    "telefone": "(61)3345-0000",
+    "especialidade": "Ginecologia e Obstetrícia, Ortopedia e Traumatologia, Pediatria, Clínica Médica, Radiologia e Diagnóstico por Imagem, Cirurgia Geral, Cirurgia do Aparelho Digestivo, Anestesiologia, Cirurgia Cardiovascular, Cirurgia Plástica, Cirurgia Torácica, Cirurgia Vascular, Coloproctologia, Dermatologia, Endocrinologia e Metabologia, Endoscopia Digestiva, Gastroenterologia, Hematologia e Hemoterapia, Infectologia, Mastologia, Medicina Intensiva, Nefrologia, Neurocirurgia, Neurologia, Nutrologia, Oftalmologia, Oncologia Clínica, Otorrinolaringologia, Pneumologia, Psiquiatria, Reumatologia, Urologia, Fisioterapia, Nutrição, Psicologia, Fonoaudiologia, Terapia Ocupacional",
+    "bairro": "ASA SUL",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "HOSPITAL SANTA LUCIA UNIDADE NORTE",
+    "telefone": "(61)3445-5600",
+    "especialidade": "Clínica Médica, Ginecologia e Obstetrícia, Ortopedia e Traumatologia, Pediatria, Cirurgia Geral, Radiologia e Diagnóstico por Imagem, Anestesiologia, Cardiologia, Cirurgia do Aparelho Digestivo, Cirurgia Pediátrica, Cirurgia Plástica, Cirurgia Torácica, Cirurgia Vascular, Coloproctologia, Dermatologia, Endocrinologia e Metabologia, Endoscopia Digestiva, Gastroenterologia, Geriatria, Hematologia e Hemoterapia, Infectologia, Mastologia, Medicina Física e Reabilitação, Medicina Intensiva, Nefrologia, Neurocirurgia, Neurologia, Oftalmologia, Oncologia Clínica, Otorrinolaringologia, Pneumologia, Psiquiatria, Reumatologia, Urologia, Fisioterapia, Nutrição, Psicologia, Fonoaudiologia, Terapia Ocupacional",
+    "bairro": "ASA NORTE",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "HOSPITAL SANTA HELENA",
+    "telefone": "(61) 3215-0000",
+    "especialidade": "Clínica Médica, Ginecologia e Obstetrícia, Pediatria, Cirurgia Geral, Radiologia e Diagnóstico por Imagem, Ortopedia e Traumatologia, Anestesiologia, Cardiologia, Cirurgia do Aparelho Digestivo, Cirurgia Pediátrica, Cirurgia Plástica, Cirurgia Torácica, Cirurgia Vascular, Coloproctologia, Dermatologia, Endocrinologia e Metabologia, Endoscopia Digestiva, Gastroenterologia, Geriatria, Hematologia e Hemoterapia, Infectologia, Mastologia, Medicina Física e Reabilitação, Medicina Intensiva, Nefrologia, Neurocirurgia, Neurologia, Oftalmologia, Oncologia Clínica, Otorrinolaringologia, Pneumologia, Psiquiatria, Reumatologia, Urologia, Fisioterapia, Nutrição, Psicologia, Fonoaudiologia, Terapia Ocupacional",
+    "bairro": "ASA NORTE",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "HOSPITAL SÃO LUCAS",
+    "telefone": "(61)3345-0000",
+    "especialidade": "Ginecologia e Obstetrícia, Ortopedia e Traumatologia, Pediatria, Clínica Médica, Radiologia e Diagnóstico por Imagem, Cirurgia Geral, Cirurgia do Aparelho Digestivo, Anestesiologia, Cirurgia Cardiovascular, Cirurgia Plástica, Cirurgia Torácica, Cirurgia Vascular, Coloproctologia, Dermatologia, Endocrinologia e Metabologia, Endoscopia Digestiva, Gastroenterologia, Hematologia e Hemoterapia, Infectologia, Mastologia, Medicina Intensiva, Nefrologia, Neurocirurgia, Neurologia, Nutrologia, Oftalmologia, Oncologia Clínica, Otorrinolaringologia, Pneumologia, Psiquiatria, Reumatologia, Urologia, Fisioterapia, Nutrição, Psicologia, Fonoaudiologia, Terapia Ocupacional",
+    "bairro": "ASA SUL",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "HOSPITAL SANTA MARTA",
+    "telefone": "(61) 3451-5000",
+    "especialidade": "Clínica Médica, Ginecologia e Obstetrícia, Ortopedia e Traumatologia, Pediatria, Cirurgia Geral, Radiologia e Diagnóstico por Imagem, Anestesiologia, Cardiologia, Cirurgia do Aparelho Digestivo, Cirurgia Pediátrica, Cirurgia Plástica, Cirurgia Torácica, Cirurgia Vascular, Coloproctologia, Dermatologia, Endocrinologia e Metabologia, Endoscopia Digestiva, Gastroenterologia, Geriatria, Hematologia e Hemoterapia, Infectologia, Mastologia, Medicina Física e Reabilitação, Medicina Intensiva, Nefrologia, Neurocirurgia, Neurologia, Oftalmologia, Oncologia Clínica, Otorrinolaringologia, Pneumologia, Psiquiatria, Reumatologia, Urologia, Fisioterapia, Nutrição, Psicologia, Fonoaudiologia, Terapia Ocupacional",
+    "bairro": "TAGUATINGA SUL",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "HOSPITAL ANCHIETA",
+    "telefone": "(61)3353-9000",
+    "especialidade": "Clínica Médica, Ginecologia e Obstetrícia, Pediatria, Cirurgia Geral, Radiologia e Diagnóstico por Imagem, Ortopedia e Traumatologia, Anestesiologia, Cardiologia, Cirurgia do Aparelho Digestivo, Cirurgia Pediátrica, Cirurgia Plástica, Cirurgia Torácica, Cirurgia Vascular, Coloproctologia, Dermatologia, Endocrinologia e Metabologia, Endoscopia Digestiva, Gastroenterologia, Geriatria, Hematologia e Hemoterapia, Infectologia, Mastologia, Medicina Física e Reabilitação, Medicina Intensiva, Nefrologia, Neurocirurgia, Neurologia, Oftalmologia, Oncologia Clínica, Otorrinolaringologia, Pneumologia, Psiquiatria, Reumatologia, Urologia, Fisioterapia, Nutrição, Psicologia, Fonoaudiologia, Terapia Ocupacional",
+    "bairro": "TAGUATINGA SUL",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "SANTA CLARA DIAGNÓSTICO",
+    "telefone": "(61) 3201-3838",
+    "especialidade": "Radiologia e Diagnóstico por Imagem, Ressonância Magnética, Tomografia Computadorizada, Ultrassonografia, Mamografia",
+    "bairro": "TAGUATINGA CENTRO",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "LABORATÓRIO SABIN",
+    "telefone": "(61) 3329-8000",
+    "especialidade": "Análises Clínicas",
+    "bairro": "ASA NORTE",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "HOSPITAL ALVORADA",
+    "telefone": "(61) 3550-8900",
+    "especialidade": "Clínica Médica, Ginecologia e Obstetrícia, Ortopedia e Traumatologia, Pediatria, Cirurgia Geral, Radiologia e Diagnóstico por Imagem, Anestesiologia, Cardiologia, Cirurgia do Aparelho Digestivo, Cirurgia Pediátrica, Cirurgia Plástica, Cirurgia Torácica, Cirurgia Vascular, Coloproctologia, Dermatologia, Endocrinologia e Metabologia, Endoscopia Digestiva, Gastroenterologia, Geriatria, Hematologia e Hemoterapia, Infectologia, Mastologia, Medicina Física e Reabilitação, Medicina Intensiva, Nefrologia, Neurocirurgia, Neurologia, Oftalmologia, Oncologia Clínica, Otorrinolaringologia, Pneumologia, Psiquiatria, Reumatologia, Urologia, Fisioterapia, Nutrição, Psicologia, Fonoaudiologia, Terapia Ocupacional",
+    "bairro": "TAGUATINGA CENTRO",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "LABORATÓRIO EXATO",
+    "telefone": "(61)3354-1500",
+    "especialidade": "Análises Clínicas",
+    "bairro": "TAGUATINGA NORTE",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "LABORATÓRIO BRASÍLIA",
+    "telefone": "(61)3354-2000",
+    "especialidade": "Análises Clínicas",
+    "bairro": "TAGUATINGA NORTE",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "AMIL ASSISTÊNCIA MÉDICA INTERNACIONAL S/A",
+    "telefone": "(61)3442-8700",
+    "especialidade": "CENTRO CLÍNICO",
+    "bairro": "ASA NORTE",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "HOSPITAL SANTA LÚCIA",
+    "telefone": "(61)3445-5600",
+    "especialidade": "Clínica Médica, Ginecologia e Obstetrícia, Ortopedia e Traumatologia, Pediatria, Cirurgia Geral, Radiologia e Diagnóstico por Imagem, Anestesiologia, Cardiologia, Cirurgia do Aparelho Digestivo, Cirurgia Pediátrica, Cirurgia Plástica, Cirurgia Torácica, Cirurgia Vascular, Coloproctologia, Dermatologia, Endocrinologia e Metabologia, Endoscopia Digestiva, Gastroenterologia, Geriatria, Hematologia e Hemoterapia, Infectologia, Mastologia, Medicina Física e Reabilitação, Medicina Intensiva, Nefrologia, Neurocirurgia, Neurologia, Oftalmologia, Oncologia Clínica, Otorrinolaringologia, Pneumologia, Psiquiatria, Reumatologia, Urologia, Fisioterapia, Nutrição, Psicologia, Fonoaudiologia, Terapia Ocupacional",
+    "bairro": "ASA NORTE",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "CENTRO DO CORAÇÃO",
+    "telefone": "(61) 3445-4581",
+    "especialidade": "Cardiologia, Cirurgia Cardiovascular, Clínica Médica, Endocrinologia e Metabologia",
+    "bairro": "Asa Sul",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "HOSPITAL DAHER",
+    "telefone": "(61) 3213-4805",
+    "especialidade": "Cardiologia",
+    "bairro": "Lago Sul",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "ANGIORÁDIO",
+    "telefone": "(61) 3771-7200",
+    "especialidade": "CIRURGIA VASCULAR, CIRURGIA GERAL, DEMATOLOGIA, RADIOLOGIAE DIAGNÓSTICO POR IMAGEM",
+    "bairro": "TAGUATINGA",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "CLÍNICA DE PSICOLOGIA LEA SANTOS",
+    "telefone": "(61) 99166-4442",
+    "especialidade": "PSICOLOGIA, PSICANÁLISE",
+    "bairro": "ASA SUL",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "CLÍNICA BRASÍLIA",
+    "telefone": "(61) 3373-3131/3373-6161",
+    "especialidade": "CARDIOLOGIA, OTORRINOLARINGOLOGIA, NEUROLOGIA, GENICOLOGIA, PNEUMOLOGIA",
+    "bairro": "CEILÂNDIA",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "ONCOBRASÍLIA",
+    "telefone": "(61) 98162-3374",
+    "especialidade": "RADIOLOGIA, HEMATOLOGIA, ONCOLOGIA, MASTOLOGIA, CIRURGIA TORÁCICA, UROLOGIA,",
+    "bairro": "ASA SUL",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "CLÍNICA DA MAMA",
+    "telefone": "(61)3213.6625",
+    "especialidade": "ANGIOLOGIA CIRURGIA PLÁSTICA CLÍNICA MÉDICA ENDOCRINOLOGIA GINECOLOGIA MASTOLOGIA ONCOLOGIA UROLOGIA EXAMES E DIAGNÓSTICO POR IMAGEM",
+    "bairro": "ASA NORTE",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "INSTITUTO DE CÂNCER DE BRASÍLIA",
+    "telefone": "(61)3030-1900 (61)4042-5071",
+    "especialidade": "GERAL",
+    "bairro": "ASA SUL",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "CLÍNICA LONGEVITÁ",
+    "telefone": "(61)3256-9702 (61)98214-3052",
+    "especialidade": "PEDIATRIA, CARDIOLOGIA, ENDOCRINOLOGIA, PSIQUIATRIA, GINECOLOGIA E OBSTETRICIA, CLÍNICA MÉDICA, REUMATOLOGIA, ARRITMOLOGIA, ANGIOLOGIA E CIRURGIA VASCULAR, CLÍNICA GERAL, PSICOLOGIA E PSICANALISE, NUTRIÇÃO, FISIOTERAPIA E ACUPUNTURA.",
+    "bairro": "ASA NORTE",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "DIGESTIVA",
+    "telefone": "(61)3244-0039",
+    "especialidade": "GASTROENTEROLOGIA COLOPROCTOLOGIA CLÍNICA MÉDICA GASTROENTEROLOGIA CIRURGIA GERAL CIRURGIA ONCOLOGICA CIRURGIA DO APARELHO DIGESTIVO CIRURGIA PROCTOLOGIA",
+    "bairro": "ASA SUL",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "UNIPROCTO",
+    "telefone": "(61) 3233-0850",
+    "especialidade": "GASTROENTEROLOGIA, COLOPROCTOLOGIA, HEPATOLOGIA E FISIOTERAPIA, CIRURGIA GERAL",
+    "bairro": "ASA SUL",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "CIAP",
+    "telefone": "(61)3346-1155",
+    "especialidade": "LABORATÓRIO",
+    "bairro": "ASA SUL",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "CLINÍCA ENERGIA",
+    "telefone": "30450555",
+    "especialidade": "Homeopatia",
+    "bairro": "Asa Norte",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "CLÍNICA FERNANDO GALLI CIRURGIA PLÁSTICA E RECONSTRUTORA",
+    "telefone": "(61)3327-0201",
+    "especialidade": "Cirurgia Plástica, Anestesiologia, Cirurgia Geral",
+    "bairro": "ASA SUL",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "ESSENSUS PSICOLOGIA",
+    "telefone": "998678887",
+    "especialidade": "Psicologia",
+    "bairro": "Asa Norte",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "ITAMAR",
+    "telefone": "33455784",
+    "especialidade": "Neurologia",
+    "bairro": "Asa Norte",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "CEFON",
+    "telefone": "(61) 3345-5655",
+    "especialidade": "Nutrição, Psicologia, Fonoaudiologia, Terapia Ocupacional",
+    "bairro": "Asa Sul",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "HUMED - MÉDICOS DE BRASÍLIA",
+    "telefone": "33459300",
+    "especialidade": "Angiologia, Cirurgia Vascular, Cardiologia, Clínica Médica, Neurologia, Endocrinologia e Metabologia, Pneumologia, Psicologia",
+    "bairro": "Asa Sul",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "I A C V INSTITUTO DE ANGIOLOGIA E CIRURGIA VASCULAR",
+    "telefone": "(61) 3213-0500",
+    "especialidade": "Angiologia, Cirurgia Vascular, Ecografia vascular com Doppler",
+    "bairro": "Asa Sul",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "INOVAR FISIOTERAPIA E SAÚDE",
+    "telefone": "32025658",
+    "especialidade": "Fisioterapia",
+    "bairro": "Asa Sul",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "INOVOX",
+    "telefone": "(61) 3577-7818",
+    "especialidade": "Otorrinolaringologia, Fonoaudiologia",
+    "bairro": "Asa Norte",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "SOCIEDADE BRASILIENSE DE OTORRINO E ENDOSCOPIA PERORAL",
+    "telefone": "34429999",
+    "especialidade": "Dermatologia, Cirurgia de Cabeça e Pescoço, Alergia e Imunologia, Otorrinolaringologia, Fonoaudiologia",
+    "bairro": "Asa Sul",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "CLINICA ALMEIDA E MARRA",
+    "telefone": "34716608",
+    "especialidade": "Ortopedia e Traumatologia",
+    "bairro": "Ceilândia Sul",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "INSTITUTO DE OLHOS DE TAGUATINGA",
+    "telefone": "35636000",
+    "especialidade": "Oftalmologia",
+    "bairro": "Taguatinga Norte",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "VISION OFTALMOLOGIA SUDOESTE",
+    "telefone": "(61)3462-1999 (61)99136-0998",
+    "especialidade": "OFTALMOLOGIA",
+    "bairro": "SUDOESTE",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "CAMI",
+    "telefone": "(61)3877-7937",
+    "especialidade": "PSICOLOGIA",
+    "bairro": "GAMA",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "FORÇA FISIOTERAPIA E ORTOPEDIA",
+    "telefone": "(61) 3542-8239",
+    "especialidade": "FISIOTERAPIA",
+    "bairro": "ASA SUL",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "SANPELE DERMATOLOGIA",
+    "telefone": "(61) 3967-0191",
+    "especialidade": "DERMATOLOGIA",
+    "bairro": "TAGUATINGA",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "VISÃO INSTITUTOS OFTALMOLÓGICOS",
+    "telefone": "(61) 3771-3279",
+    "especialidade": "OFTALMOLOGIA",
+    "bairro": "SAMAMBAIA",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "INST. SEIXAS DE NEUROLOGIA E ESPEC. PEDIÁTRICA (ISNEP)",
+    "telefone": "(61)3971-6100",
+    "especialidade": "Neurologia, Neurologia Pediátrica, Pediatria, Terapia Ocupacional, Clínica Médica, Nutrição, Psicologia, Fonoaudiologia",
+    "bairro": "Asa Sul",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  },
+  {
+    "nome": "SALUTAR",
+    "telefone": "984083237",
+    "especialidade": "Otorrinolaringologia",
+    "bairro": "Zona Industrial",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal"
+  }
+]
