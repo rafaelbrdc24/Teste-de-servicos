@@ -84,6 +84,52 @@
     .result p:last-child {
       margin-bottom: 0;
     }
+    /* Campos e layout refinados */
+    .field label {
+      display: block;
+      font-weight: 600;
+      font-size: 0.9rem;
+      margin-bottom: 0.25rem;
+      color: #333;
+    }
+    input:focus, select:focus {
+      outline: 2px solid #2962ff22;
+      border-color: #2962ff;
+    }
+    /* Barra de contexto */
+    .context-bar {
+      background: #eef2ff;
+      border: 1px solid #c7d2fe;
+      padding: 0.75rem 1rem;
+      border-radius: 12px;
+      margin-bottom: 1rem;
+      display: none;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+    .context-bar .pill {
+      background: #2962ff;
+      color: #ffffff;
+      padding: 0.2rem 0.6rem;
+      border-radius: 999px;
+      font-size: 0.85rem;
+      display: inline-block;
+    }
+    /* Resultados em grade e efeitos */
+    #results {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 1rem;
+    }
+    .result {
+      transition: box-shadow 0.2s ease, transform 0.2s ease;
+    }
+    .result:hover {
+      box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12);
+      transform: translateY(-1px);
+    }
     /* Estilo para o botão de pesquisa */
     #searchForm button {
         background-color: #2962ff;
@@ -108,11 +154,27 @@
       <button class="indireta" onclick="loadSheet('indireta')">Rede Credenciada Indireta</button>
     </div>
     <form id="searchForm" onsubmit="event.preventDefault(); searchTable()">
+      <div class="context-bar" id="contextBar">
+        <div>
+          <strong>Rede:</strong> <span class="pill" id="contextNetwork">—</span>
+        </div>
+        <div>
+          <strong>Resultados:</strong> <span id="contextCount">0</span>
+        </div>
+      </div>
       <div class="grid">
-        <input type="text" id="nome" placeholder="Nome" />
-        <input type="text" id="especialidade" list="especialidadesList" placeholder="Especialidade" />
-        <datalist id="especialidadesList"></datalist>
-        <select id="bairro">
+        <div class="field">
+          <label for="nome">Nome do local</label>
+          <input type="text" id="nome" placeholder="Ex.: Hospital X" />
+        </div>
+        <div class="field">
+          <label for="especialidade">Especialidade</label>
+          <input type="text" id="especialidade" list="especialidadesList" placeholder="Ex.: Cardiologia" />
+          <datalist id="especialidadesList"></datalist>
+        </div>
+        <div class="field">
+          <label for="bairro">Bairro</label>
+          <select id="bairro">
           <option value="">Todos os bairros</option>
           <option>Águas Claras</option>
           <option>Asa Norte</option>
@@ -130,9 +192,16 @@
           <option>Setor Hospitalar Sul</option>
           <option>Sobradinho</option>
           <option>Taguatinga</option>
-        </select>
-        <input type="text" id="cidade" placeholder="Cidade" />
-        <input type="text" id="estado" placeholder="Estado" />
+          </select>
+        </div>
+        <div class="field">
+          <label for="cidade">Cidade</label>
+          <input type="text" id="cidade" placeholder="Ex.: Brasília" />
+        </div>
+        <div class="field">
+          <label for="estado">Estado</label>
+          <input type="text" id="estado" placeholder="Ex.: DF" />
+        </div>
       </div>
       <button type="submit" style="margin-top: 1rem;">Pesquisar</button>
     </form>
@@ -140,7 +209,7 @@
   </div>
 
   <footer>
-    <p>Versão: 0.1.2 BETA</p>
+    <p>Versão: 1.5.0 </p>
     <p>Dev: Rafael Barros</p>
   </footer>
 
@@ -225,6 +294,8 @@
       currentSheet = sheet;
       const form = document.getElementById('searchForm');
       const resultsContainer = document.getElementById('results');
+      const contextBar = document.getElementById('contextBar');
+      const contextNetwork = document.getElementById('contextNetwork');
       form.style.display = 'flex';
       resultsContainer.innerHTML = 'Carregando dados...';
 
@@ -237,6 +308,8 @@
         }
 
         resultsContainer.innerHTML = '';
+        contextBar.style.display = 'flex';
+        contextNetwork.textContent = sheet === 'direta' ? 'Direta' : 'Indireta';
         searchTable();
       } catch (error) {
         console.error(`Erro ao carregar a planilha ${sheet}:`, error);
@@ -269,17 +342,20 @@
       });
 
       const container = document.getElementById('results');
+      const contextCount = document.getElementById('contextCount');
       container.innerHTML = '';
       if (results.length === 0) {
         container.innerHTML = '<p>Nenhum resultado encontrado.</p>';
+        if (contextCount) contextCount.textContent = '0';
         return;
       }
 
+      if (contextCount) contextCount.textContent = String(results.length);
       results.forEach(entry => {
         container.innerHTML += `
           <div class="result">
             <h3 style="color: #2962ff;">${entry.nome}</h3>
-            <p><strong>Telefone:</strong> ${entry.telefone || 'Não informado'}</p>
+            <p><strong>Telefone:</strong> ${entry.telefone ? `<a href="tel:${entry.telefone.replace(/\D/g,'')}">${entry.telefone}</a>` : 'Não informado'}</p>
             <p><strong>Especialidade:</strong> ${entry.especialidade}</p>
             <p><strong>Endereço:</strong> ${entry.bairro}, ${entry.cidade} - ${entry.estado}</p>
           </div>
